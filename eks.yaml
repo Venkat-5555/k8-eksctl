@@ -9,6 +9,8 @@ managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
+    minSize: 0
+    maxSize: 3
     spot: true
     # availabilityZones:
     # - us-east-1f
